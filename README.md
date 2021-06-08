@@ -2,3 +2,4 @@
 A sample vuejs project with php rest api
 
 Just run it with docker-compose up
+The webserver will run at http://localhost:9000
