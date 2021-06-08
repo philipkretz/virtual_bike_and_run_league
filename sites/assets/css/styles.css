@@ -1,0 +1,161 @@
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #A9E2F3;
+  background-image: url('../images/running.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-x: right;
+  background-position-y: 4em;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.navbar {
+  z-index: 1000;
+}
+
+#dd-lang-switcher {
+  margin-top: 0.7rem;
+}
+
+#navbarCollapse {
+  /*padding-top: 0.7rem;*/
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:active,
+.navbar-light .navbar-brand:visited {
+  color: #04B45F; /* #A9E2F3; */
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #777; /* #8181F7; */
+}
+
+.card a,.card a:active,.card a:visited {
+  color: #fefefe;
+}
+
+.card a:hover {
+  color: #ddd;
+}
+
+a,a:active,a:visited {
+  color: #333;
+}
+
+a:hover {
+  color: #777;
+}
+
+a.button-menu {
+  color: #555; /*#efefef;*/
+}
+
+a.button-menu:hover {
+  color: #777;
+}
+
+a.btn, nav.navbar a {
+  font-size: 18px;
+}
+
+.jumbotron .lead {
+  font-size: 16px;
+}
+
+nav.navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+  background-color: #CEE3F6;
+}
+
+.footer {
+  bottom: 0;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  background-color: #CEE3F6; /*#fefefe;*/ /* #6c757d; #04B45F; */
+  width: 100%;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.footer a,.footer p, .footer span {
+  text-shadow: 1px 1px #777;
+}
+
+#content-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: #04B45F;
+  text-shadow: 2px 2px #555;
+}
+
+.news-txt {
+  opacity: 0.8;
+}
+
+.event-card {
+  opacity: 0.7;
+  background-color: #FEFEFE;
+}
+
+.event-card a.btn,.event-card a.btn:visited,.event-card a.btn:active {
+  color: #fefefe;
+}
+
+.btn.btn-primary,.btn.btn-primary:visited,.btn.btn-primary:active {
+  color: #fefefe;
+}
+
+.event-card a,.event-card a:visited,.event-card a:active {
+  color: #333;
+}
+
+.event-card a:hover {
+  color: #999;
+}
+
+.jumbotron p.lead, #content-container p {
+  white-space: pre-line;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.navbar-brand img {
+  opacity: 0.6;
+  border-radius: 15px;
+  padding: 2px;
+}
+
+.profile-avatar {
+  width: 8em !important;
+  height: 8em !important;
+}
+
+.portal-badge-news {
+  height: 64px;
+  width: auto;
+  border-radius: 10px;
+  float: right;
+  margin-left: 15px;
+}
+
+.card-deck .card {
+  background: none;
+  border-color: #A9E2F3;
+}
+
+.carousel-inner {
+  border-radius: 4px;
+}
